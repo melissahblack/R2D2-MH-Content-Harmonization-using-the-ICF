@@ -1,0 +1,52 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Melissa H Black"
+  },
+  "text": {
+    "more": "Visualization demonstrating linking of measures to the ICF. Black nodes indicate inidividual measures. Large external nodes represent domains of the ICF. Use the Search bar to search for specific assessments/measurements. Click on ICF domains to explore all assessments/measurements linked to that ICF domain or click on measures to see linked domains",
+    "intro": "Visualization demonstrating linking of measures to the International Classification of Functioning, Disability and Health (ICF)",
+    "title": "ICF data harmonization visualization"
+  },
+  "legend": {
+    "edgeLabel": "Link",
+    "colorLabel": "ICF Domain (pink \u003d body functions, green \u003d activities and participation, blue \u003d environment, orange \u003dpersonal factors)",
+    "nodeLabel": "Label"
+  },
+  "features": {
+    "search": true,
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 0,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
